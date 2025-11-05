@@ -1,0 +1,12 @@
+.nav {
+    background-color: red;
+}
+
+.nav :global(.active){
+    background-color: aqua;
+}
+
+
+:global(.test) {
+    background-color: green;
+}
