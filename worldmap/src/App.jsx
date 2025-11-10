@@ -4,6 +4,7 @@ import Pricing from "./pages/Pricing"
 import Product from "./pages/Product"
 import PageNotFound from "./pages/PageNotFound"
 import AppLyout from "./pages/AppLyout"
+import Login from "./pages/Login"
 
 
 
@@ -19,6 +20,7 @@ function App() {
   <Route path="/" element={<Homepage/>} />
   <Route path="pricing" element={<Pricing/>}/>
   <Route path="product" element={<Product/>}/>
+  <Route path="login" element={<Login/>}/>
   <Route path="app" element={<AppLyout/>}/>
   <Route path="*" element={<PageNotFound/>}/>
 

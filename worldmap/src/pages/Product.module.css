@@ -1,0 +1,27 @@
+.product {
+    min-height: 800px;
+    margin: 2.5px;
+    background-color: var(   --color-dark--1);
+
+}
+
+.product section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 30%;
+    margin-left: 20px;
+}
+.info h2 {
+    color: var(  --color-light--2 );
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+}

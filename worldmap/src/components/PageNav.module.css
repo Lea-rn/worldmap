@@ -1,12 +1,21 @@
-.nav {
-    background-color: red;
+.nav ul {
+    display: flex;
+    list-style: none; 
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 500px;
+    padding-top: 30px;
+    position: relative;
+
 }
 
-.nav :global(.active){
-    background-color: aqua;
+.nav a {
+    text-decoration: none;
+    color: var( --color-light--2);
+    font-size: 20px;
 }
 
-
-:global(.test) {
-    background-color: green;
+.nav a:global(.active) {
+    color: var( --color-brand--2);
 }
+
